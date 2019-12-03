@@ -15,7 +15,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="Username"
-        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintBottom_toTopOf="@+id/userNameText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -28,7 +28,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="Password"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/userPassText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/userPassText"
         android:layout_width="215dp"
         android:layout_height="46dp"
         android:layout_marginStart="308dp"
@@ -59,7 +59,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/userNameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="293dp"
